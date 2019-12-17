@@ -1,0 +1,95 @@
+<head>
+  <link rel="icon" href="Assets/f1logo.png" type="image">
+  <title>Formula 1 Wiki</title>
+  <style>
+
+  #Heading{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 35;
+  }
+
+  #titlelogo{
+    position: absolute; /* Reposition logo from the natural layout */
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 300px;
+    margin-top: 0px;
+  }
+
+  #register{
+    position: absolute;
+    top:200px;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+  }
+
+  #Account{
+    position:absolute;
+    right: 20px;
+    top: 190px;
+  }
+
+  #Contents{
+    position:absolute;
+    left: 10px;
+    top: 190px;
+    list-style-type: none;
+  }
+  </style>
+</head>
+<body>
+
+  <div id="titlelogo">
+    <img src="Assets/f1worldlogo.jpg" type="img" height="200px" width="300px" alt="f1worldlogo"></img>
+  </div>
+  <div id="Heading">
+    <h1>Formula 1 Wiki</h1>
+  </div>
+
+  <div id="register">
+    <input type="text" placeholder="Full Name"></input>
+    <br><br>
+    <input type="password" placeholder="Email"></input>
+    <br><br>
+    <input type="text" placeholder="Username"></input>
+    <br><br>
+    <input type="password" placeholder="Password"></input>
+    <br><br>
+    <labe>Date of Birth:</label>
+      <select>
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+      </select>
+      <select>
+        <option value="1">1</option>
+      </select>
+      <select>
+        <option value="1970">1970</option>
+      </select>
+  </div>
+
+  <div id="Account">
+    <ul style="list-style-type: none">
+      <li><a href="register.html">Register</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </div>
+
+  <div id="Contents">
+    <ul style="list-style-type: none">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="driver.html">Driver Standings</a></li>
+      <li><a href="constructor.html">Constructor Points<a></li>
+    </ul>
+  </div>
+
+</body>
